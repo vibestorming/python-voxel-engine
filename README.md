@@ -13,22 +13,28 @@ This project enables you to generate and render voxel-based 3D worlds, which can
 Before you can use this program, you need to ensure that you have the following prerequisites installed:
 
 -   Python
--   Poetry
+-   UV
 
-To install Poetry, you can use pip:
+To install UV, you can use pip:
 
 ```sh
-pip install poetry
+pip install uv
 ```
 
 ## Usage
 
 1. Clone this repo.
 2. Navigate to the project folder.
-3. Run the program using Poetry:
+3. Install the dependencies
 
 ```sh
-poetry run python src/main.py
+uv install
+```
+
+4. Run the program using UV:
+
+```sh
+uv run python src/main.py
 ```
 
 ## Controls
